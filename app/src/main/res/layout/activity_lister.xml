@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Votre CardView existante -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="8dp"
+        app:contentPadding="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/pdfRl1"
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/pdf1">
+                <!-- Contenu de votre RelativeLayout pdfRl -->
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/titleTv1"
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spring Boot "
+                android:layout_toEndOf="@+id/pdfRl1"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/descriptionTv1"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Microservices"
+                android:layout_toEndOf="@+id/pdfRl1"
+                android:layout_below="@+id/titleTv1"
+                android:maxLines="4"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/detailsTv1"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/sizeTv1"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13 MB"
+                android:layout_toEndOf="@+id/pdfRl1"
+                android:layout_alignParentBottom="true"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/dateTv1"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01/01/2024"
+                android:layout_toEndOf="@+id/sizeTv1"
+                android:layout_toStartOf="@+id/detailsTv1"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true"
+                android:maxLines="1"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="8dp"
+        app:contentPadding="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/pdfRl2"
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/pdf1">
+                <!-- Contenu de votre RelativeLayout pdfRl -->
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/titleTv2"
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android"
+                android:layout_toEndOf="@+id/pdfRl2"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/descriptionTv2"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android Studio"
+                android:layout_toEndOf="@+id/pdfRl2"
+                android:layout_below="@+id/titleTv2"
+                android:maxLines="4"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/detailsTv2"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/sizeTv2"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 MB"
+                android:layout_toEndOf="@+id/pdfRl2"
+                android:layout_alignParentBottom="true"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/dateTv2"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18/09/2023"
+                android:layout_toEndOf="@+id/sizeTv2"
+                android:layout_toStartOf="@+id/detailsTv2"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true"
+                android:maxLines="1"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="8dp"
+        app:contentPadding="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/pdfRl3"
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/pdf1">
+                <!-- Contenu de votre RelativeLayout pdfRl -->
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/titleTv3"
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Security"
+                android:layout_toEndOf="@+id/pdfRl3"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/descriptionTv3"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Types of Security"
+                android:layout_toEndOf="@+id/pdfRl3"
+                android:layout_below="@+id/titleTv3"
+                android:maxLines="4"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/detailsTv3"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/sizeTv3"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 MB"
+                android:layout_toEndOf="@+id/pdfRl3"
+                android:layout_alignParentBottom="true"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/dateTv3"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10/12/2023"
+                android:layout_toEndOf="@+id/sizeTv3"
+                android:layout_toStartOf="@+id/detailsTv3"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true"
+                android:maxLines="1"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="8dp"
+        app:contentPadding="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/pdfRl4"
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/pdf1">
+                <!-- Contenu de votre RelativeLayout pdfRl -->
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/titleTv4"
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Programming "
+                android:layout_toEndOf="@+id/pdfRl4"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/descriptionTv4"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description book"
+                android:layout_toEndOf="@+id/pdfRl4"
+                android:layout_below="@+id/titleTv4"
+                android:maxLines="4"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/detailsTv4"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/sizeTv4"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16 MB"
+                android:layout_toEndOf="@+id/pdfRl4"
+                android:layout_alignParentBottom="true"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/dateTv4"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10/02/2021"
+                android:layout_toEndOf="@+id/sizeTv4"
+                android:layout_toStartOf="@+id/detailsTv4"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true"
+                android:maxLines="1"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="8dp"
+        app:contentPadding="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/pdfRl"
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/pdf1">
+                <!-- Contenu de votre RelativeLayout pdfRl -->
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/titleTv"
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Design Patterns "
+                android:layout_toEndOf="@+id/pdfRl"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/descriptionTv"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About patterns"
+                android:layout_toEndOf="@+id/pdfRl"
+                android:layout_below="@+id/titleTv"
+                android:maxLines="4"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/detailsTv"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/sizeTv"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 MB"
+                android:layout_toEndOf="@+id/pdfRl"
+                android:layout_alignParentBottom="true"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/dateTv"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="04/01/2024"
+                android:layout_toEndOf="@+id/sizeTv"
+                android:layout_toStartOf="@+id/detailsTv"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true"
+                android:maxLines="1"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Ajoutez autant de CardView que nécessaire ici -->
+
+</LinearLayout>
